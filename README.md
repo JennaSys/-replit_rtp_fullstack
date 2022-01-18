@@ -1,6 +1,6 @@
 # React to Python: Fullstack example
 
-## A simple fullstack example from chapter 20 of the React to Python book.
+### A simple fullstack example from chapter 20 of the React to Python book.
 
 Click the button below to clone and run it on Replit (A free [Replit](https://replit.com/) account is required):
 
