@@ -6,6 +6,8 @@ Click the button below to clone and run it on Replit (A free [Replit](https://re
 
 [![Run on Repl.it](https://repl.it/badge/github/JennaSys/replit_rtp_fullstack)](https://repl.it/github/JennaSys/replit_rtp_fullstack)
 
+Or you can just view the Replit repl [here](https://replit.com/@JennaSys/replitrtpfullstack).
+
 To generate the development JavaScript bundle, run `. ./build.sh` in the shell (note the leading dot!).
 
 Running the repl afterwards will then serve up the generated JavaScript files with Flask.
