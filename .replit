@@ -1,0 +1,7 @@
+run = "python main.py"
+language = "python3"
+entrypoint = "src/app.py"
+
+[packager]
+language = "python-python3-poetry"
+
