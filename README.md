@@ -8,7 +8,7 @@ Click the button below to clone and run it on Replit (A free [Replit](https://re
 
 Or you can just view the Replit repl [here](https://replit.com/@JennaSys/replitrtpfullstack).
 
-To generate the development JavaScript bundle, run `. build.sh` in the shell (note the leading dot and space!). This may take a few minutes, so be patient.
+To generate the development JavaScript bundle, run `. build.sh` in the shell window (note the leading dot and space!). This may take a few minutes, so be patient.
 
 Running the repl afterwards will then serve up the generated JavaScript files with Flask.
 
