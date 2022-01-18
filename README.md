@@ -1,6 +1,6 @@
 # React to Python: Fullstack example
 
-[![Run on Repl.it](https://repl.it/badge/github/JennaSys/replit_rtp_standalone)](https://repl.it/github/JennaSys/replit_rtp_standalone)
+[![Run on Repl.it](https://repl.it/badge/github/JennaSys/replit_rtp_fullstack)](https://repl.it/github/JennaSys/replit_rtp_fullstack)
 
 To generate the development JavaScript bundle, run `. ./build.sh` in the shell (note the leading dot!).
 
