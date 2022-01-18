@@ -1,5 +1,9 @@
 # React to Python: Fullstack example
 
+## A simple fullstack example from chapter 20 of the React to Python book.
+
+Click the button below to clone and run it on Replit (A free [Replit](https://replit.com/) account is required):
+
 [![Run on Repl.it](https://repl.it/badge/github/JennaSys/replit_rtp_fullstack)](https://repl.it/github/JennaSys/replit_rtp_fullstack)
 
 To generate the development JavaScript bundle, run `. ./build.sh` in the shell (note the leading dot!).

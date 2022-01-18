@@ -26,12 +26,12 @@ app = Flask(__name__, static_folder=STATIC_DIR, static_url_path='/')
 def index():
     return app.send_static_file('index.html')
 
-@app.route('/user/<userid>')
+@app.route('/api/user/<userid>')
 def get_user(userid):
     person = next((user for user in users if str(user['ID']) == userid), {})
     return jsonify(person)
 
-@app.route('/users')
+@app.route('/api/users')
 def get_userlist():
     user_list = []
     for user in users:
@@ -41,3 +41,4 @@ def get_userlist():
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=8000)
+
