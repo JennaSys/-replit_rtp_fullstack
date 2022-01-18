@@ -1,3 +1,5 @@
+from common import require, window  # __:skip
+
 console = window.console
 
 polyfill = require("@babel/polyfill")  # required by async/await
@@ -12,4 +14,4 @@ async def fetch(url, callback):
             callback(data)
     except object as e:
         console.error(e)
-        
+

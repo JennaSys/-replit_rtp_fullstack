@@ -1,3 +1,5 @@
+from common import require  # __:skip
+
 from pyreact import component
 
 # Basic MUI components
@@ -20,3 +22,4 @@ createMuiTheme = require('@material-ui/core/styles/createMuiTheme')['default']
 colors = require('@material-ui/core/colors')
 makeStyles = require('@material-ui/styles/makeStyles')['default']
 styled = require('@material-ui/styles/styled')['default']
+

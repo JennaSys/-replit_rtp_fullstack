@@ -1,6 +1,4 @@
-# __pragma__ ('skip')
-from common import require, document, window, __new__
-# __pragma__ ('noskip')
+from common import require, document, window, __new__  # __:skip
 
 
 # Load React and ReactDOM JavaScript libraries into local namespace
@@ -58,4 +56,4 @@ def render(root_component, props, container):
 
     document.addEventListener('DOMContentLoaded', main)
     window.addEventListener('popstate', main)
-    
+
