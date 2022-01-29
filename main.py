@@ -41,9 +41,10 @@ def get_userlist():
     return jsonify(user_list)
 
 if __name__ == "__main__":
+    # Start up flask in proxied mode if using parcel dev server
     if len(sys.argv) > 1 and sys.argv[1] == 'dev':
       app.run(debug=True, host="127.0.0.1", port=8000)
-    else:
+    else:  # Run public server
       app.run(debug=True, host="0.0.0.0", port=8000)
 
 
