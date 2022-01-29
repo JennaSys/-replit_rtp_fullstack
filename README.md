@@ -17,6 +17,8 @@ This Replit repl has been created to give you an idea of what coding a React app
 
 This demo deviates a little bit from the book in that the version used here is an example using of the ["No-el"](https://dev.to/jennasys/no-el-eliminate-explicit-calls-to-createelement-when-using-python-to-code-react-applications-5214) approach.  This approach eliminates having to call `React.createElement()` explicitly, as was presented throughout the book, by instead wrapping React functional components in a Python decorator.
 
+It has also been updated to use the Parcel v2 bundler with an updated Transcrypt plugin for processing Python files.
+
 ### Setup
 The first time you run the `build.sh` shell script, it will check for installed dependencies.  If not found, it will do the following:  
 - Install Python 3.9 (required by Transcrypt)
