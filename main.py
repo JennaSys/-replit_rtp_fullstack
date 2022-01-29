@@ -1,4 +1,5 @@
 from flask import Flask, jsonify
+import sys
 
 users = [
     {"ID": 1, "FirstName": "Valeria", "LastName": "Lammerding",
@@ -40,5 +41,10 @@ def get_userlist():
     return jsonify(user_list)
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=8000)
+    if len(sys.argv) > 1 and sys.argv[1] == 'dev':
+      app.run(debug=True, host="127.0.0.1", port=8000)
+    else:
+      app.run(debug=True, host="0.0.0.0", port=8000)
+
+
 
