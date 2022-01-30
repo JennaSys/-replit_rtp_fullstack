@@ -8,9 +8,10 @@ Click the button below to clone and run it on Replit (A free [Replit](https://re
 
 Or you can just view the Replit repl [here](https://replit.com/@JennaSys/replitrtpfullstack).
 
+### Building and Running the Application
 To generate the development JavaScript bundle, run `. build.sh` in the shell window (note the leading dot and space!). This may take a few minutes to run, so be patient.
 
-Running the repl afterwards will then serve up the generated JavaScript files with Flask.
+Running the repl afterwards with the Replit _Run_ button will then serve up the generated JavaScript files with Flask.
 
 ### About
 This Replit repl has been created to give you an idea of what coding a React application in Python looks like, without having to set up a development environment specific to that task yourself.  You can also use this repl as a template for creating your own Python React projects that are based on utilizing the [Transcrypt](https://www.transcrypt.org) transpiler.
