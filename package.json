@@ -1,6 +1,6 @@
 {
   "name": "pyreact",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "React to Python",
   "scripts": {
     "start": "npm-run-all -p -r flask-dev parcel-dev",
@@ -23,9 +23,6 @@
     "@material-ui/styles": "^4.11.4",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
-  },
-  "alias": {
-    "./static/**": "./src/static/$1"
   },
   "parcel-transformer-transcrypt": {
     "command": "python3.9 -m transcrypt"
