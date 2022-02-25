@@ -1,6 +1,6 @@
 {
   "name": "pyreact",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "React to Python",
   "scripts": {
     "start": "npm-run-all -p -r flask-dev parcel-dev",
@@ -28,4 +28,3 @@
     "command": "python3.9 -m transcrypt"
   }
 }
-
