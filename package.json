@@ -1,6 +1,6 @@
 {
   "name": "pyreact",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "React to Python",
   "scripts": {
     "start": "npm-run-all -p -r flask-dev parcel-dev",
