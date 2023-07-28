@@ -7,7 +7,7 @@ The automated git clone and build configuration doesn't work well anymore. Repli
 
 [![Run on Repl.it](https://repl.it/badge/github/JennaSys/replit_rtp_fullstack)](https://repl.it/github/JennaSys/replit_rtp_fullstack)
 
-Or you can just view the Replit repl [here](https://replit.com/@JennaSys/replitrtpfullstack).
+~~Or you can just view the Replit repl [here](https://replit.com/@JennaSys/replitrtpfullstack).~~ Replit's auto update to nix has also broken this previously running repl.
 
 ### Building and Running the Application
 To generate the development JavaScript bundle, run `. build.sh` in the shell window (note the leading dot and space!). This may take a few minutes to run, so be patient.
