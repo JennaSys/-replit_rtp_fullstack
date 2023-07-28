@@ -2,7 +2,7 @@
 
 ### A simple React/Material-UI fullstack example from chapter 20 of the [React to Python](https://pyreact.com) book.
 
-Click the button below to clone and run it on Replit (A free [Replit](https://replit.com/) account is required):
+Click the button below to clone and run it on Replit (A free [Replit](https://replit.com/) account is required - and be patient, Replit can be a bit slow and unstable at times):
 
 [![Run on Repl.it](https://repl.it/badge/github/JennaSys/replit_rtp_fullstack)](https://repl.it/github/JennaSys/replit_rtp_fullstack)
 
